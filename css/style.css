@@ -1,0 +1,15 @@
+@import "reset.css";
+
+/* components */
+@import "components/nav-bar.css";
+@import "components/chat.css";
+/* screens */
+@import "screens/home.css";
+@import "screens/about.css";
+@import "screens/skills.css";
+@import "screens/contact.css";
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}

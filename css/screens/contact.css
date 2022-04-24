@@ -1,0 +1,20 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-column {
+  margin-bottom: 30px;
+}
+
+.contact-column:hover {
+  border-color: lightgreen;
+}
+.contact-column:hover i {
+  color: lightgreen;
+}
+.contact-column:hover span {
+  color: lightgreen;
+}

@@ -1,0 +1,57 @@
+.home-header {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 120px 0px 40px 0px;
+}
+.home-header__title {
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.home-header__text {
+  font-weight: 300;
+}
+
+.home-header__text span {
+  font-weight: 400;
+  font-size: 33px;
+}
+
+.home-main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-main__pic {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+}
+
+.suit {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: -25px;
+  left: -15px;
+}
+
+.mypic {
+  width: 220px;
+  height: 220px;
+
+  border-radius: 110px;
+}
+.home-main__click {
+  font-size: 25px;
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.home-main__click:hover {
+  font-size: 28px;
+}
